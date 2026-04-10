@@ -19,3 +19,52 @@
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
 }
+
+/* GLOBAL STYLES */
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+}
+
+header{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a{
+    color: var(--champagne-gold);
+    text-decoration: none;
+}
+
+section{
+    padding: 1.5rem;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
